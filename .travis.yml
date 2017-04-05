@@ -6,9 +6,11 @@ python:
   - '2.7'
   - '3.4'
   - '3.5'
+  - '3.6'
   - pypy
 
 env:
+  - DJANGO_VERSION=1.11.x
   - DJANGO_VERSION=1.10.x
   - DJANGO_VERSION=1.9.x
   - DJANGO_VERSION=1.8.x
